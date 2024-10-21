@@ -52,6 +52,7 @@ interface NewsInter {
 }
 
 function showNewsDetail(news:NewsInter) {
+  // router.push / replace
   router.replace({
     name: 'xiang',
     query: {
